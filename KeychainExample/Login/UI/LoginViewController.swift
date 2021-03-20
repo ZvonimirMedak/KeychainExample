@@ -10,6 +10,7 @@ import UIKit
 import RxSwift
 import LocalAuthentication
 import SnapKit
+import RxCocoa
 
 struct Credentials {
     var username: String
@@ -178,7 +179,7 @@ private extension LoginViewController {
                     print(error)
                 } else {
                     print("Authenticated")
-                    #warning("Do whatever you'd like")
+                    //do whatever you like :)
                 }
             }
         }).disposed(by: disposeBag)

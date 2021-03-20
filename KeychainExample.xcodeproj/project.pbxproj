@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52980AF22606291700A38988 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52980AF12606291700A38988 /* LoginViewModel.swift */; };
 		529CE58F2605413800495D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CE58E2605413800495D94 /* AppDelegate.swift */; };
 		529CE5982605413900495D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529CE5972605413900495D94 /* Assets.xcassets */; };
 		529CE59B2605413900495D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CE5992605413900495D94 /* LaunchScreen.storyboard */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		33632632EE00F6DF71A8EC10 /* Pods-KeychainExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainExample.release.xcconfig"; path = "Target Support Files/Pods-KeychainExample/Pods-KeychainExample.release.xcconfig"; sourceTree = "<group>"; };
-		52980AF12606291700A38988 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		529CE58B2605413800495D94 /* KeychainExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529CE58E2605413800495D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		529CE5972605413900495D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,14 +40,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52980AF02606290F00A38988 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				52980AF12606291700A38988 /* LoginViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		529CE5822605413800495D94 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +74,6 @@
 		529CE5AC2605427F00495D94 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				52980AF02606290F00A38988 /* ViewModel */,
 				529CE5AD2605428C00495D94 /* UI */,
 			);
 			path = Login;
@@ -231,7 +220,6 @@
 				529CE5AF2605429600495D94 /* LoginViewController.swift in Sources */,
 				529CE5D926054BEA00495D94 /* BiometricsAuthentication.swift in Sources */,
 				529CE58F2605413800495D94 /* AppDelegate.swift in Sources */,
-				52980AF22606291700A38988 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
