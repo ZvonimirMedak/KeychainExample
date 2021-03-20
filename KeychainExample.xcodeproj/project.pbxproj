@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52980AF22606291700A38988 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52980AF12606291700A38988 /* LoginViewModel.swift */; };
 		529CE58F2605413800495D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CE58E2605413800495D94 /* AppDelegate.swift */; };
-		529CE5912605413800495D94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CE5902605413800495D94 /* SceneDelegate.swift */; };
-		529CE5932605413800495D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CE5922605413800495D94 /* ViewController.swift */; };
-		529CE5962605413800495D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CE5942605413800495D94 /* Main.storyboard */; };
 		529CE5982605413900495D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529CE5972605413900495D94 /* Assets.xcassets */; };
 		529CE59B2605413900495D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529CE5992605413900495D94 /* LaunchScreen.storyboard */; };
+		529CE5AF2605429600495D94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CE5AE2605429600495D94 /* LoginViewController.swift */; };
+		529CE5D926054BEA00495D94 /* BiometricsAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CE5D826054BEA00495D94 /* BiometricsAuthentication.swift */; };
+		A8394765E6AD3A38DEC5CF2C /* Pods_KeychainExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD289C5BA488DF65BED05CA /* Pods_KeychainExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33632632EE00F6DF71A8EC10 /* Pods-KeychainExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainExample.release.xcconfig"; path = "Target Support Files/Pods-KeychainExample/Pods-KeychainExample.release.xcconfig"; sourceTree = "<group>"; };
+		52980AF12606291700A38988 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		529CE58B2605413800495D94 /* KeychainExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529CE58E2605413800495D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		529CE5902605413800495D94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		529CE5922605413800495D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		529CE5952605413800495D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		529CE5972605413900495D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529CE59A2605413900495D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		529CE59C2605413900495D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529CE5AE2605429600495D94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		529CE5D826054BEA00495D94 /* BiometricsAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsAuthentication.swift; sourceTree = "<group>"; };
+		ACD289C5BA488DF65BED05CA /* Pods_KeychainExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B533FA6FBA4A5FEAB6CE8F5B /* Pods-KeychainExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainExample.debug.xcconfig"; path = "Target Support Files/Pods-KeychainExample/Pods-KeychainExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8394765E6AD3A38DEC5CF2C /* Pods_KeychainExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52980AF02606290F00A38988 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52980AF12606291700A38988 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		529CE5822605413800495D94 = {
 			isa = PBXGroup;
 			children = (
 				529CE58D2605413800495D94 /* KeychainExample */,
 				529CE58C2605413800495D94 /* Products */,
+				A899EF0C9FEE4F120ADB4BA6 /* Pods */,
+				6468D2A6761E22785E56B5EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,48 @@
 		529CE58D2605413800495D94 /* KeychainExample */ = {
 			isa = PBXGroup;
 			children = (
+				529CE5AC2605427F00495D94 /* Login */,
 				529CE58E2605413800495D94 /* AppDelegate.swift */,
-				529CE5902605413800495D94 /* SceneDelegate.swift */,
-				529CE5922605413800495D94 /* ViewController.swift */,
-				529CE5942605413800495D94 /* Main.storyboard */,
 				529CE5972605413900495D94 /* Assets.xcassets */,
 				529CE5992605413900495D94 /* LaunchScreen.storyboard */,
 				529CE59C2605413900495D94 /* Info.plist */,
+				529CE5D826054BEA00495D94 /* BiometricsAuthentication.swift */,
 			);
 			path = KeychainExample;
+			sourceTree = "<group>";
+		};
+		529CE5AC2605427F00495D94 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				52980AF02606290F00A38988 /* ViewModel */,
+				529CE5AD2605428C00495D94 /* UI */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		529CE5AD2605428C00495D94 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				529CE5AE2605429600495D94 /* LoginViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6468D2A6761E22785E56B5EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD289C5BA488DF65BED05CA /* Pods_KeychainExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A899EF0C9FEE4F120ADB4BA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B533FA6FBA4A5FEAB6CE8F5B /* Pods-KeychainExample.debug.xcconfig */,
+				33632632EE00F6DF71A8EC10 /* Pods-KeychainExample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529CE59F2605413900495D94 /* Build configuration list for PBXNativeTarget "KeychainExample" */;
 			buildPhases = (
+				2332449790DD17F9B90E9A32 /* [CP] Check Pods Manifest.lock */,
 				529CE5872605413800495D94 /* Sources */,
 				529CE5882605413800495D94 /* Frameworks */,
 				529CE5892605413800495D94 /* Resources */,
+				A14EB4FDA8F2FE2162EF486D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +176,68 @@
 			files = (
 				529CE59B2605413900495D94 /* LaunchScreen.storyboard in Resources */,
 				529CE5982605413900495D94 /* Assets.xcassets in Resources */,
-				529CE5962605413800495D94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2332449790DD17F9B90E9A32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeychainExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A14EB4FDA8F2FE2162EF486D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychainExample/Pods-KeychainExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeychainExample/Pods-KeychainExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeychainExample/Pods-KeychainExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		529CE5872605413800495D94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				529CE5932605413800495D94 /* ViewController.swift in Sources */,
+				529CE5AF2605429600495D94 /* LoginViewController.swift in Sources */,
+				529CE5D926054BEA00495D94 /* BiometricsAuthentication.swift in Sources */,
 				529CE58F2605413800495D94 /* AppDelegate.swift in Sources */,
-				529CE5912605413800495D94 /* SceneDelegate.swift in Sources */,
+				52980AF22606291700A38988 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		529CE5942605413800495D94 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				529CE5952605413800495D94 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		529CE5992605413900495D94 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +367,7 @@
 		};
 		529CE5A02605413900495D94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B533FA6FBA4A5FEAB6CE8F5B /* Pods-KeychainExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +386,7 @@
 		};
 		529CE5A12605413900495D94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33632632EE00F6DF71A8EC10 /* Pods-KeychainExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
